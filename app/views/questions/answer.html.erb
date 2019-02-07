@@ -1,0 +1,21 @@
+<h1>Stupid coaching</h1>
+<!-- DISPLAY QUESTION AND ANSWER @qustion in controller-->
+<blockquote>
+  <p> <%= @question %></p>
+  <cite>You</cite>
+</blockquote>
+
+<blockquote class="coach-box">
+  <p> <%= @answer %> </p>
+  <cite>Your coach</cite>
+</blockquote>
+
+<%= link_to "Ask a new question", ask_path %>
+
+
+
+<!-- <h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p> -->
+<!-- 1. get info from querry => by params in controller -> @question -->
+<!-- 2. crate login in controller if/else => @answer of coach -->
+<!-- 3. display in answer.html.erb the logic @answer -->
